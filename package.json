@@ -1,0 +1,31 @@
+{
+  "name": "ru-hooks",
+  "version": "1.0.0",
+  "description": "some commons and utils react hooks",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "test"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "David Figueroa",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.12",
+    "react": "^18.0.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  }
+}
