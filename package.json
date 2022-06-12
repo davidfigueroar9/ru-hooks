@@ -1,5 +1,8 @@
 {
-  "name": "ru-hooks",
+  "name": "@davidfigueroar9/ru-hooks",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/davidfigueroar9"
+  },
   "version": "1.0.0",
   "description": "some commons and utils react hooks",
   "main": "dist/cjs/index.js",
@@ -25,6 +28,7 @@
     "react": "^18.0.0",
     "rollup": "^2.75.6",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.7.3"
   }
